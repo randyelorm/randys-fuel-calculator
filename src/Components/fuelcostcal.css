@@ -1,0 +1,119 @@
+body {
+  background-image: url("../Images/background.jpeg");
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif !important;
+  background-size: cover;
+  height: 100vh;
+  background-position: 20%;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.price {
+  color: white;
+}
+
+.Fuel_Cost_Calc_Container {
+  padding: 2rem;
+  text-align: left;
+  background-color: #d8a45f;
+  color: black;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1) !important;
+}
+
+.heading {
+  color: white;
+  background-color: #162336 !important;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.select_currency {
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+
+.label-text {
+  font-weight: bold;
+  text-align: left;
+  padding-left: 0rem !important;
+}
+
+.calculate_fuel_cost_btn {
+  color: white;
+  border: #162336 !important;
+  background-color: #162336 !important;
+  margin-bottom: 1rem !important;
+  margin-top: 1rem;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  padding: 0.7rem !important;
+}
+
+.card {
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1) !important;
+  margin-top: 1rem;
+}
+
+.fuel-cost-text {
+  font-weight: 900;
+}
+
+.fuel_cost {
+  color: 162336 !important;
+  /* color: white !important; */
+  padding: 0.3rem;
+  background-color: #d8a45f;
+  border-radius: 10px;
+}
+
+.label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .login-heading {
+    font-size: 2.2rem;
+  }
+
+  .Fuel_Cost_Calc_Container {
+    display: grid !important;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    margin-top: 1.5rem;
+    gap: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .form-input {
+    width: 70% !important;
+  }
+
+  .card {
+    margin-top: 10rem;
+    height: 5rem;
+  }
+
+  .label {
+    display: block;
+    font-size: 1.3rem;
+  }
+
+  .calculator {
+    color: white;
+    padding: 0.2rem;
+    border-radius: 10px;
+  }
+}
